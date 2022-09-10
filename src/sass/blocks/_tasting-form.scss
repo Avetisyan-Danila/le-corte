@@ -1,0 +1,81 @@
+.tasting-form {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 40px;
+}
+
+.tasting-form__input {
+  width: calc(50% - 15px);
+  border: none;
+  border-bottom: 3px solid $white;
+  padding: 10px 0;
+  transition: 0.3s;
+
+  background-color: transparent;
+  font-size: 13px;
+  color: $white;
+
+  &--wide {
+    width: 100%;
+  }
+
+  &:hover {
+    border-bottom-color: $primary;
+
+    &::placeholder {
+      color: $primary;
+    }
+  }
+
+  &:focus, &:active {
+    outline: none;
+    border-bottom-color: $primary;
+
+    &::placeholder {
+      color: $white;
+    }
+  }
+
+  &::placeholder {
+    font-size: 13px;
+    color: $white;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+}
+
+.tasting-form__button {
+  width: 100%;
+  background-color: transparent;
+  border: 3px solid $white;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: $white;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  &:hover {
+    border-color: $primary;
+    color: $primary;
+  }
+}
+
+.tasting__decor-element {
+  position: absolute;
+
+  &--grape {
+    top: -28px;
+    left: -33px;
+  }
+
+  &--barrel {
+    top: -28px;
+    right: -54px;
+  }
+}
