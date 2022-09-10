@@ -1,16 +1,3 @@
 .page-body {
-  font-family: "Mulish", "Arial", sans-serif;
-  padding-top: 140px;
-
-  @media (max-width: $lg) {
-    padding-top: 90px;
-  }
-
-  @media (max-width: $sm) {
-    padding-top: 70px;
-  }
-}
-
-.page-body.lock {
-  overflow: hidden;
+  font-family: "Montserrat", "Arial", sans-serif;
 }

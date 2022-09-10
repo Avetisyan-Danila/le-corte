@@ -1,14 +1,6 @@
 .container {
-  max-width: 1160px;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 0 20px;
   position: relative;
-
-  &--wide {
-    max-width: $xl;
-
-    @media (max-width: $xl) {
-      max-width: 1160px;
-    }
-  }
 }
