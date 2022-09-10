@@ -1,0 +1,47 @@
+.intro {
+  background-image: url(../img/intro/bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-color: $milk;
+
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #282828 0%, rgba(40, 40, 40, 0) 100%);
+  }
+}
+
+.intro__links {
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.intro__link {
+  text-decoration: none;
+  background-color: $primary;
+  font-size: 16px;
+  line-height: 20px;
+  color: $white;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: 0.3s;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &:hover {
+    background-color: $white;
+    color: $primary;
+  }
+}
