@@ -1,0 +1,19 @@
+.footer-menu {
+  margin: 0;
+  padding: 20px 95px;
+  list-style-type: none;
+
+  display: flex;
+  column-gap: 60px;
+  border-top: 1px solid $white;
+}
+
+.footer-menu__link {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 150%;
+  color: $white;
+
+  @extend %bottom-line
+}
