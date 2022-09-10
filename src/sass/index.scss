@@ -6,13 +6,17 @@
 @import "fonts";
 @import "utils";
 
+@import "extends/bottom-line";
+
 @import "blocks/page-body";
 @import "blocks/visually-hidden";
 @import "blocks/container";
 @import "blocks/header";
 @import "blocks/nav-menu";
 @import "blocks/intro";
+@import "blocks/btn";
 @import "blocks/text-block";
 @import "blocks/title";
-
-@import "extends/bottom-line";
+@import "blocks/novelty";
+@import "blocks/novelty-info";
+@import "blocks/novelty-table";
