@@ -1,7 +1,14 @@
 .novelty-info__title {
-  margin: 0;
+  max-width: 300px;
+  color: $dark-gray;
+
+  margin: 0 0 30px;
 }
 
 .novelty-info__text {
-  margin: 0;
+  font-size: 14px;
+  line-height: 150%;
+  color: $dark-gray;
+
+  margin: 0 0 30px;
 }

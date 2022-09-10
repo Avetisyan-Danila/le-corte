@@ -1,11 +1,52 @@
+.novelty-table {
+  padding: 0;
+  margin: 0 0 30px;
+  list-style-type: none;
+}
+
+.novelty-table__row {
+  display: flex;
+}
+
 .novelty-table__year {
+  font-size: 14px;
+  line-height: 150%;
+  color: $dark-gray;
+
+  border: 1px solid transparent;
+  border-right-color: $dark-gray;
+  border-bottom-color: $dark-gray;
+
+  padding: 25px;
   margin: 0;
 }
 
+.novelty-table__row:last-child .novelty-table__year {
+  border-bottom-color: transparent;
+}
+
+.novelty-table__info {
+  padding: 15px 25px;
+  border-bottom: 1px solid $dark-gray;
+}
+
+.novelty-table__row:last-child .novelty-table__info {
+  border-bottom: none;
+}
+
 .novelty-table__name {
+  font-family: 'PlayfairDisplay';
+  font-size: 18px;
+  line-height: 150%;
+  color: $dark-gray;
+
   margin: 0;
 }
 
 .novelty-table__desc {
+  font-size: 14px;
+  line-height: 150%;
+  color: $dark-gray;
+
   margin: 0;
 }

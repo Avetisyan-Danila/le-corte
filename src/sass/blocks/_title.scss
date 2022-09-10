@@ -17,4 +17,14 @@
     height: 1px;
     background-color: $white;
   }
+
+  &--novelty {
+    padding-bottom: 30px;
+
+    &:after {
+      left: 0;
+      transform: none;
+      background-color: $dark-gray;
+    }
+  }
 }

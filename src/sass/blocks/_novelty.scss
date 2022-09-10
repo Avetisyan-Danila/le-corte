@@ -1,7 +1,22 @@
 .novelty {
   background-color: $beige;
+
+  padding: 75px 0 85px 0;
+}
+
+.novelty__wrapper {
+  padding: 60px 0;
+  border-top: 1px solid $primary;
+  border-bottom: 1px solid $primary;
+
+  display: flex;
+  column-gap: 125px;
 }
 
 .novelty__title {
-  margin: 0;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+
+  margin: 0 0 30px;
 }
