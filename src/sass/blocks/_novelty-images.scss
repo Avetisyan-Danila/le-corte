@@ -1,3 +1,8 @@
+.novelty-images {
+  max-width: 540px;
+  margin-left: 125px;
+}
+
 .novelty-images__preview {
   height: 500px;
 
@@ -6,7 +11,13 @@
 
 .novelty-images__row {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 15px;
 
-  height: 236px;
+  min-height: 236px;
+
+  & img {
+    width: calc(50% - 15px);
+  }
 }
