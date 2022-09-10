@@ -1,0 +1,20 @@
+.title {
+  font-family: 'PlayfairDisplay';
+  font-size: 36px;
+  line-height: 150%;
+  padding-bottom: 40px;
+
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 160px;
+    height: 1px;
+    background-color: $white;
+  }
+}
