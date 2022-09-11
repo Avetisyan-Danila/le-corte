@@ -6,6 +6,10 @@
   display: flex;
   column-gap: 60px;
   border-top: 1px solid $white;
+
+  @media (max-width: $lg) {
+    column-gap: 30px;
+  }
 }
 
 .footer-menu__link {
@@ -14,6 +18,7 @@
   font-size: 14px;
   line-height: 150%;
   color: $white;
+  text-align: center;
 
   @extend %bottom-line
 }
