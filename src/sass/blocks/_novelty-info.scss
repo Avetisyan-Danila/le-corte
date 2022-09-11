@@ -1,3 +1,10 @@
+.novelty-info {
+  @media (max-width: $lg) {
+    max-width: 540px;
+    margin: 0 auto 60px;
+  }
+}
+
 .novelty-info__title {
   max-width: 300px;
   color: $dark-gray;

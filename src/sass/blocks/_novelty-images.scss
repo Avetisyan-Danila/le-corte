@@ -1,6 +1,10 @@
 .novelty-images {
   max-width: 540px;
   margin-left: 125px;
+
+  @media (max-width: $lg) {
+    margin: 0 auto;
+  }
 }
 
 .novelty-images__preview {

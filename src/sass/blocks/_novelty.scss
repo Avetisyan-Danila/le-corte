@@ -10,6 +10,10 @@
   border-bottom: 1px solid $primary;
 
   display: flex;
+
+  @media (max-width: $lg) {
+    flex-wrap: wrap;
+  }
 }
 
 .novelty__title {

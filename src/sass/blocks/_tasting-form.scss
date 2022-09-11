@@ -65,17 +65,3 @@
     color: $primary;
   }
 }
-
-.tasting__decor-element {
-  position: absolute;
-
-  &--grape {
-    top: -28px;
-    left: -33px;
-  }
-
-  &--barrel {
-    top: -28px;
-    right: -54px;
-  }
-}
