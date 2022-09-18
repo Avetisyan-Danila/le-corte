@@ -16,6 +16,10 @@
   font-size: 13px;
   color: $white;
 
+  @media (max-width: $sm) {
+    width: 100%;
+  }
+
   &--wide {
     width: 100%;
   }

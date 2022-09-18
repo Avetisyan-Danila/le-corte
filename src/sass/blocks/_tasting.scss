@@ -1,6 +1,10 @@
 .tasting {
   background-color: $dark-gray;
   padding: 130px 0 100px 0;
+
+  @media (max-width: $xs) {
+    padding: 80px 0 50px 0;
+  }
 }
 
 .tasting__wrapper {
@@ -8,6 +12,14 @@
   padding: 105px 0 80px 0;
 
   position: relative;
+
+  @media (max-width: $sm) {
+    padding: 80px 40px 80px 40px;
+  }
+
+  @media (max-width: $xs) {
+    padding: 140px 40px 40px 40px;
+  }
 }
 
 .tasting__block {
@@ -31,6 +43,16 @@
   @media (max-width: $lg) {
     white-space: nowrap;
   }
+
+  @media (max-width: $sm) {
+    padding: 10px 40px 20px 40px;
+  }
+
+  @media (max-width: $xs) {
+    white-space: normal;
+    text-align: center;
+    padding: 10px 30px 20px 30px;
+  }
 }
 
 .tasting__text {
@@ -40,6 +62,10 @@
   text-align: center;
 
   margin: 0 0 80px;
+
+  @media (max-width: $sm) {
+    margin: 0 0 40px;
+  }
 }
 
 .tasting__decor-element {

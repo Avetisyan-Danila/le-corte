@@ -10,6 +10,13 @@
   @media (max-width: $lg) {
     column-gap: 30px;
   }
+  
+  @media (max-width: $md) {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 20px 40px;
+  }
 }
 
 .footer-menu__link {

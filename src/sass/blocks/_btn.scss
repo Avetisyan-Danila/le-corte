@@ -10,6 +10,11 @@
   text-transform: uppercase;
   transition: 0.3s;
 
+  @media (max-width: $xs) {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
   &:hover {
     background-color: $white;
     color: $primary;

@@ -16,17 +16,28 @@
     height: 100%;
     background: linear-gradient(180deg, #282828 0%, rgba(40, 40, 40, 0) 100%);
   }
+
+  @media (max-width: $md) {
+    background-position: center center;
+  }
 }
 
 .intro__links {
+  display: flex;
   position: absolute;
   bottom: 150px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+
+  @media (max-width: $lg) {
+    bottom: 80px;
+  }
 }
 
 .intro__link {
+  white-space: nowrap;
+
   &:not(:last-child) {
     margin-right: 30px;
   }

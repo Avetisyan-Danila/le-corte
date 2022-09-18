@@ -2,6 +2,10 @@
   background-color: $beige;
 
   padding: 75px 0 85px 0;
+
+  @media (max-width: $xs) {
+    padding: 40px 0 50px 0;
+  }
 }
 
 .novelty__wrapper {
@@ -13,6 +17,10 @@
 
   @media (max-width: $lg) {
     flex-wrap: wrap;
+  }
+
+  @media (max-width: $xs) {
+    padding: 40px 0 50px 0;
   }
 }
 

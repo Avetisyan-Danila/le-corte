@@ -1,0 +1,7 @@
+.nav {
+  @media (max-width: $sm) {
+    position: fixed;
+    top: 0;
+    right: -120%;
+  }
+}
