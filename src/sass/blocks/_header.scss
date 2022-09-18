@@ -12,6 +12,14 @@
   }
 }
 
+.header__wrapper {
+  @media (max-width: $sm) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 .header__info {
   display: flex;
   justify-content: space-between;
@@ -24,6 +32,10 @@
 
   @media (max-width: $sm) {
     padding-bottom: 0;
+
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
   }
 }
 

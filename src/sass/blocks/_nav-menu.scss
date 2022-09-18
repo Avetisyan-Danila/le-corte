@@ -4,6 +4,16 @@
   list-style-type: none;
 
   display: flex;
+
+  @media (max-width: $sm) {
+    flex-direction: column;
+    background-color: $primary;
+
+    width: 70%;
+    margin-left: auto;
+    height: 100%;
+    padding-top: 113px;
+  }
 }
 
 .nav-menu__item {
@@ -15,6 +25,14 @@
 
   &:not(:last-child) .nav-menu__link {
     border-right-color: $white;
+
+    @media (max-width: $sm) {
+      border-right-color: transparent;
+    }
+  }
+
+  @media (max-width: $sm) {
+    flex: none;
   }
 }
 
@@ -33,6 +51,11 @@
   border-bottom-color: $white;
 
   transition: 0.3s;
+
+  @media (max-width: $sm) {
+    padding: 20px;
+    font-size: 18px;
+  }
 
   &:hover {
     background-color: $white;
