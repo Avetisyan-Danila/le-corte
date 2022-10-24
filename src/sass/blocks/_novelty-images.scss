@@ -7,39 +7,7 @@
   }
 }
 
-.novelty-images__preview {
-  height: 500px;
-
-  margin-bottom: 30px;
-
-  @media (max-width: $xs) {
-    height: auto;
-  }
-
-  & img {
-    @media (max-width: $xs) {
-      width: 100%;
-    }
-  }
-}
-
-.novelty-images__row {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 30px;
-  row-gap: 15px;
-
-  min-height: 236px;
-
-  & img {
-    width: calc(50% - 15px);
-
-    @media (max-width: $xs) {
-      width: 100%
-    }
-  }
-
-  @media (max-width: $xs) {
-    row-gap: 30px;
-  }
+.novelty-images__preview img {
+  width: 100%;
+  margin-top: 20px;
 }
