@@ -25,10 +25,12 @@
   }
 
   &:hover {
-    border-bottom-color: $primary;
+    @media (min-width: $lg) {
+      border-bottom-color: $primary;
 
-    &::placeholder {
-      color: $primary;
+      &::placeholder {
+        color: $primary;
+      }
     }
   }
 
@@ -65,7 +67,9 @@
   text-transform: uppercase;
 
   &:hover {
-    border-color: $primary;
-    color: $primary;
+    @media (min-width: $lg) {
+      border-color: $primary;
+      color: $primary;
+    }
   }
 }

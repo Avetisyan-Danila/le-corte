@@ -16,7 +16,9 @@
   }
 
   &:hover {
-    background-color: $white;
-    color: $primary;
+    @media (min-width: $lg) {
+      background-color: $white;
+      color: $primary;
+    }
   }
 }

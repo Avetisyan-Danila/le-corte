@@ -71,25 +71,33 @@
   }
 
   &--youtube {
-    &:hover svg path {
-      fill: $youtube;
+    @media (min-width: $lg) {
+      &:hover svg path {
+        fill: $youtube;
+      }
     }
   }
 
   &--vk {
-    &:hover svg path {
-      fill: $vk;
+    @media (min-width: $lg) {
+      &:hover svg path {
+        fill: $vk;
+      }
     }
   }
 
   &--facebook {
-    &:hover svg path {
-      fill: $facebook;
+    @media (min-width: $lg) {
+      &:hover svg path {
+        fill: $facebook;
+      }
     }
   }
 
   &:hover {
-    transform: translateY(-2px);
+    @media (min-width: $lg) {
+      transform: translateY(-2px);
+    }
   }
 }
 
