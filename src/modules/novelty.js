@@ -1,5 +1,5 @@
-import Swiper, {Thumbs} from "swiper";
-Swiper.use([Thumbs]);
+import Swiper, {Navigation, Thumbs} from "swiper";
+Swiper.use([Thumbs, Navigation]);
 
 const swiperThumb = new Swiper('.swiper--novelty-thumb', {
     spaceBetween: 20,
@@ -10,6 +10,10 @@ const swiperThumb = new Swiper('.swiper--novelty-thumb', {
 
 const swiperNovelty = new Swiper('.swiper--novelty', {
     spaceBetween: 20,
+    navigation: {
+        prevEl: ".swiper-button--prev",
+        nextEl: ".swiper-button--next",
+    },
     thumbs: {
         swiper: swiperThumb,
     }
